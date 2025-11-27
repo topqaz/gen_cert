@@ -6,8 +6,7 @@
 
 
 ```bash
-# 一键生成 SSL 证书
-curl -sSL https://raw.githubusercontent.com/topqaz/gen_cert/main/gen_cert.sh | bash
+bash <(curl -sSL https://raw.githubusercontent.com/topqaz/gen_cert/main/gen_cert.sh)
 ```
 
 
