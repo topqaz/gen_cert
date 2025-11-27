@@ -2,8 +2,13 @@
 一键生成证书
 
 🚀 使用方法
-chmod +x gen_cert.sh
-./gen_cert.sh example.com
+
+
+
+```bash
+# 一键生成 SSL 证书
+curl -sSL https://raw.githubusercontent.com/topqaz/gen_cert/main/gen_cert.sh | bash
+```
 
 
 生成的文件：
